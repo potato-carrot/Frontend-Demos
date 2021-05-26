@@ -1,5 +1,6 @@
-let http = require('http')
-http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/plain' })
+const cp = require('child_process')
 
-}).listen(Math.round() * 1000 + 1, '127.0.0.1')
+// cp.execFile('node', ['worker.js'])
+// cp.exec('node worker.js', function (err, stdout, stderr) { })
+// cp.execFile('worker.js', function (err, stdout, stderr) { })
+// cp.fork('./worker.js')
