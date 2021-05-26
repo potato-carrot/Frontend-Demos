@@ -1,3 +1,4 @@
 node_modules
 TypeScript/ts/dist/*
+TypeScript/ts/node_modules
 TypeScript/TypeScript编程/01/dist
